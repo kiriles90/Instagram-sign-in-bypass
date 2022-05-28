@@ -1,15 +1,15 @@
 // ==UserScript==
-// @name         Instagram sign-in bypass
-// @namespace    http://tampermonkey.net/
-// @version      1.5
-// @date         2022-05-28
-// @author       github.com/kiriles90
-// @updateURL    https://raw.githubusercontent.com/kiriles90/Instagram-sign-in-bypass/master/violentmonkey.js
-// @downloadURL  https://raw.githubusercontent.com/kiriles90/Instagram-sign-in-bypass/master/violentmonkey.js
-// @run-at       document-idle
-// @match        http://www.instagram.com/*
-// @match        https://www.instagram.com/*
-// @grant        none
+// @name        Instagram sign-in bypass
+// @namespace   http://tampermonkey.net/
+// @version     1.5
+// @date        2022-05-28
+// @author      github.com/kiriles90
+// @updateURL   https://raw.githubusercontent.com/kiriles90/Instagram-sign-in-bypass/master/violentmonkey.js
+// @downloadURL https://raw.githubusercontent.com/kiriles90/Instagram-sign-in-bypass/master/violentmonkey.js
+// @run-at      document-idle
+// @match       http://www.instagram.com/*
+// @match       https://www.instagram.com/*
+// @grant       none
 // ==/UserScript==
 window.setTimeout(function(){
     const clone = document.querySelector('body main > div > div > div:nth-child(2) > div > p');

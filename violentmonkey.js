@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        Instagram sign-in bypass
-// @namespace   http://tampermonkey.net/
+// @namespace   github.com/kiriles90
 // @version     1.5
 // @date        2022-05-28
 // @author      github.com/kiriles90
